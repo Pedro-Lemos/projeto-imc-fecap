@@ -37,6 +37,7 @@ app/
 │   │   │       └── com/
 │   │   │           └── fecapccp/
 │   │   │               └── calculadoraimc/
+│   │   │                   ├── MainActivity.java
 │   │   │                   ├── calcularimc/
 │   │   │                   │   └── CalculoImcActivity.java
 │   │   │                   └── categoriasimc/
@@ -47,9 +48,18 @@ app/
 │   │   │                       ├── Obesidade2Activity.java
 │   │   │                       └── Obesidade3Activity.java
 │   │   └── res/
+│   │       ├── anim/
+│   │       │   ├── scale_animation.xml
 │   │       ├── layout/
+│   │       │   ├── activity_abaixo_do_peso.xml
+│   │       │   ├── activity_peso_normal.xml
+│   │       │   ├── activity_sobrepeso.xml
+│   │       │   ├── activity_obesidade_1.xml
+│   │       │   ├── activity_obesidade_2.xml
+│   │       │   ├── activity_obesidade_3.xml
 │   │       │   └── activity_calculo_imc.xml
 │   │       └── values/
+│   │           └── colors.xml
 │   │           └── strings.xml
 └── README.md
 ```
