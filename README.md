@@ -69,7 +69,7 @@ Durante o desenvolvimento deste projeto, enfrentei diversos desafios, especialme
 
 ## Como Executar o Projeto
 1. Clone o repositório:  
-`git clone https://github.com/Pedro-Lemos/calculadora-imc.git`
+`git clone https://github.com/Pedro-Lemos/projeto-imc-fecap.git`
 
 2. Abra o projeto no Android Studio.
 3. Sincronize o projeto com o Gradle (Groovy).  
