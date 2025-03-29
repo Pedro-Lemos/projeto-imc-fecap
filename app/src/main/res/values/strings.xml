@@ -1,0 +1,30 @@
+<resources>
+    <string name="app_name">Calculadora IMC</string>
+    <string name="btnMainActivity">Calculadora IMC</string>
+    <string name="input_peso">Peso (em kg). Ex.: 75.5</string>
+    <string name="input_altura">Altura (em metros). Ex.: 1.80</string>
+    <string name="btn_calcular_imc">Calcular IMC</string>
+    <string name="btn_limpar_calculo_imc">Limpar</string>
+    <string name="btn_fechar_calculo_imc">Fechar</string>
+    <string name="titulo_calculo_imc_activity">Digite seu peso e altura para calcular seu IMC</string>
+    <string name="logo_imc">Logo IMC</string>
+    <string name="resultado">Resultado</string>
+    <string name="cuide_saude">Cuide de sua saúde sempre!</string>
+    <string name="fechar">Fechar</string>
+    <string name="mensagem_de_apoio">Mensagem de apoio</string>
+    <string name="confira_o_resultado">Confira o resultado:</string>
+    <string name="o_peso_e_altura_n_o_podem_ser_zero_ou_estarem_vazios">O peso e altura não podem ser zero ou estarem vazios.</string>
+    <string name="pessoa_com_obesidade_grau_um">Pessoa com obesidade grau um</string>
+    <string name="pessoa_abaixo_do_peso">Pessoa abaixo do peso</string>
+    <string name="abaixo_do_peso_ideal">Abaixo do peso ideal</string>
+    <string name="tituloTelaInicial">Descubra seu IMC em instantes!</string>
+    <string name="pessoa_com_obesidade_grau_dois">Pessoa com obesidade grau dois</string>
+    <string name="pessoa_com_obesidade_grau_3">Pessoa com obesidade grau 3</string>
+    <string name="pessoa_com_peso_ideal">Pessoa com peso ideaL</string>
+    <string name="pessoa_com_sobrepeso">Pessoa com sobrepeso</string>
+    <string name="resultado_do_imc">Resultado do IMC:</string>
+    <string name="seu_imc_ideal">Seu IMC ideal seria entre 18.5 e 24.9</string>
+    <string name="classifica_o">Classificação</string>
+    <string name="mensagem_motivacional">Mensagem motivacional</string>
+    <string name="ok">OK</string>
+</resources>

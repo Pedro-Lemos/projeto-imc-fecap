@@ -1,0 +1,127 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/main"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/branco"
+    tools:context=".calcularimc.CalculoImcActivity">
+
+    <ImageView
+        android:id="@+id/logoImcCalcularImcActivity"
+        android:layout_width="178dp"
+        android:layout_height="182dp"
+        android:contentDescription="@string/logo_imc"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.497"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.029"
+        app:srcCompat="@drawable/imc" />
+
+    <TextView
+        android:id="@+id/tituloCalcularImcActivity"
+        android:layout_width="286dp"
+        android:layout_height="40dp"
+        android:text="@string/titulo_calculo_imc_activity"
+        android:textColor="@color/verde_escuro"
+        android:textSize="14sp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.306" />
+
+    <EditText
+        android:id="@+id/editInputPeso"
+        android:layout_width="243dp"
+        android:layout_height="63dp"
+        android:ems="10"
+        android:hint="@string/input_peso"
+        android:inputType="text"
+        android:text=""
+        android:textAlignment="center"
+        android:textColor="@color/verde_escuro"
+        android:textColorHint="@color/cinza_claro"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.497"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.412" />
+
+    <EditText
+        android:id="@+id/editInputAltura"
+        android:layout_width="243dp"
+        android:layout_height="55dp"
+        android:ems="10"
+        android:hint="@string/input_altura"
+        android:inputType="text"
+        android:text=""
+        android:textAlignment="center"
+        android:textColor="@color/cinza_escuro"
+        android:textColorHint="@color/cinza_claro"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.497"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.521" />
+
+    <Button
+        android:id="@+id/btnCalcularImc"
+        android:layout_width="291dp"
+        android:layout_height="70dp"
+        android:text="@string/btn_calcular_imc"
+        android:textSize="30sp"
+        android:backgroundTint="@color/verde_claro"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.754" />
+
+    <Button
+        android:id="@+id/btnLimparCalculoImc"
+        android:layout_width="228dp"
+        android:layout_height="49dp"
+        android:backgroundTint="@color/verde_claro"
+        android:text="@string/btn_limpar_calculo_imc"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.594" />
+
+    <Button
+        android:id="@+id/btnFecharCalculoImc"
+        android:layout_width="155dp"
+        android:layout_height="52dp"
+        android:backgroundTint="@color/cinza_escuro"
+        android:text="@string/btn_fechar_calculo_imc"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.497"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.928" />
+
+    <TextView
+        android:id="@+id/mensagemErro"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="1dp"
+        android:layout_marginBottom="4dp"
+        android:text="@string/o_peso_e_altura_n_o_podem_ser_zero_ou_estarem_vazios"
+        android:visibility="gone"
+        android:textStyle="bold"
+        android:textAlignment="center"
+        android:textColor="@color/vermelho"
+        app:layout_constraintBottom_toTopOf="@+id/editInputPeso"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/tituloCalcularImcActivity" />
+
+</androidx.constraintlayout.widget.ConstraintLayout>
